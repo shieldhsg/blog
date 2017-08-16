@@ -4,7 +4,7 @@ export default class PcIndexFooter extends React.Component{
 	render(){
 		return(
 			<footer>
-				this is the foot
+				
 			</footer>
 		)
 	}
