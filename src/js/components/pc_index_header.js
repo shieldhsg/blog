@@ -22,7 +22,6 @@ export default class PcIndexHeader extends React.Component{
 					{/*前后留白*/}
 					<Col span={2}></Col>
 					<Col span={10}>
-							<img src='./../'
 					</Col>
 					<Col span={10}>
 							<Menu

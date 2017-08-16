@@ -1,23 +1,23 @@
 该份文档会记录我在写个博客系统的时候主要的思路和想法，后面会转换成markdown的形式
 
 
-1、引入React：  cnpm install react react-dom  babel-preset-react babel-preset-es2015 --save
+1、引入React：  cnpm install react react-dom  babel-preset-react babel-preset-es2015 --save -g
 
-2、引入webpack： cnpm install webpack webpack-dev-server --save
+2、引入webpack： cnpm install webpack webpack-dev-server --save -g
 
 添加webpack.config.js 配置文件
 
 在进行webpack打包的时候，提示缺少一部分插件，所以继续安装
-cnpm install babel-core babel-loader babel-plugin-react-html-attrs --save
+cnpm install babel-core babel-loader babel-plugin-react-html-attrs --save -g
 
 运行webpack webpack-dev-server成功
 
-3、引入ant-design  cnpm install antd --save
+3、引入ant-design  cnpm install antd --save -g
 为了按需加载，优化网络性能，引入babel-plugin-import插件
 cnpm install babel-plugin-import
 
 安装style-loader css-loader
-cnpm install style-loader --save
-cnpm install css-loader --save
+cnpm install style-loader --save -g
+cnpm install css-loader --save -g
 
 4、
