@@ -20,4 +20,5 @@ cnpm install babel-plugin-import
 cnpm install style-loader --save -g
 cnpm install css-loader --save -g
 
-4、
+4、为了让站点支持markdown插件，所以引入showdown.js 开源库
+cnpm install showdown --save
